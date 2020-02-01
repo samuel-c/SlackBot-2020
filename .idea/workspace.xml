@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f661ca75-7848-4799-a863-74d768df142b" name="Default Changelist" comment="" />
+    <list default="true" id="f661ca75-7848-4799-a863-74d768df142b" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/Bot.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Bot.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/venv/WeatherAPI.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/WeatherAPI.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +19,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1X6B84DeGrJwVu6tH891pRWB1Ye" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -22,7 +30,9 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
@@ -34,7 +44,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
-        <env name="SLACK_API_TOKEN" value="xoxb-926387020102-928617107504-lmzg2DyIAQ6C70q3rmuZMuhd" />
+        <env name="SLACK_API_TOKEN" value="xoxb-926387020102-928617107504-BEvit8X4pGu04pmSfTUAWdrS" />
         <env name="WEATHER_API_KEY" value="838cb7f29cb0223815a9200db3464929" />
       </envs>
       <option name="SDK_HOME" value="" />
@@ -44,6 +54,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/Bot.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="JsonParse" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="weatherBot" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/venv" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/venv/JsonParse.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -78,10 +110,12 @@
     <list>
       <item itemvalue="Python.Bot" />
       <item itemvalue="Python.WeatherAPI" />
+      <item itemvalue="Python.JsonParse" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.Bot" />
+        <item itemvalue="Python.JsonParse" />
         <item itemvalue="Python.WeatherAPI" />
       </list>
     </recent_temporary>
@@ -97,6 +131,7 @@
       <option name="presentableId" value="Default" />
       <updated>1580356500525</updated>
       <workItem from="1580356503795" duration="19162000" />
+      <workItem from="1580525459230" duration="8511000" />
     </task>
     <servers />
   </component>
@@ -104,37 +139,39 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="593" y="287" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580413835150">
+    <state x="593" y="287" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1580525751218">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="593" y="287" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580413835150" />
-    <state x="694" y="302" key="EnvironmentVariablesDialog" timestamp="1580413833453">
+    <state x="593" y="287" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580525751218" />
+    <state x="694" y="302" key="EnvironmentVariablesDialog" timestamp="1580525749496">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="694" y="302" key="EnvironmentVariablesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580413833453" />
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1580447773092">
+    <state x="694" y="302" key="EnvironmentVariablesDialog/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580525749496" />
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom" timestamp="1580537912715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580447773092" />
-    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1580447773091">
+    <state width="1877" height="295" key="GridCell.Tab.0.bottom/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580537912715" />
+    <state width="1877" height="295" key="GridCell.Tab.0.center" timestamp="1580537912715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580447773091" />
-    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1580447773089">
+    <state width="1877" height="295" key="GridCell.Tab.0.center/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580537912715" />
+    <state width="1877" height="295" key="GridCell.Tab.0.left" timestamp="1580537912715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580447773089" />
-    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1580447773091">
+    <state width="1877" height="295" key="GridCell.Tab.0.left/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580537912715" />
+    <state width="1877" height="295" key="GridCell.Tab.0.right" timestamp="1580537912715">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580447773091" />
-    <state x="461" y="183" key="SettingsEditor" timestamp="1580413710062">
+    <state width="1877" height="295" key="GridCell.Tab.0.right/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580537912715" />
+    <state x="461" y="183" key="SettingsEditor" timestamp="1580529011104">
       <screen x="0" y="0" width="1920" height="1080" />
     </state>
-    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580413710062" />
+    <state x="461" y="183" key="SettingsEditor/0.0.1920.1080/-1920.0.1920.1080@0.0.1920.1080" timestamp="1580529011104" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/SlackBot_2020$JsonParse.coverage" NAME="JsonParse Coverage Results" MODIFIED="1580529277863" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/weatherBot$Bot.coverage" NAME="Bot Coverage Results" MODIFIED="1580419122050" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
     <SUITE FILE_PATH="coverage/weatherBot$WeatherAPI.coverage" NAME="WeatherAPI Coverage Results" MODIFIED="1580419100386" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
+    <SUITE FILE_PATH="coverage/SlackBot_2020$Bot.coverage" NAME="Bot Coverage Results" MODIFIED="1580537912710" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/venv" />
   </component>
 </project>
