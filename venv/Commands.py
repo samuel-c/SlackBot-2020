@@ -17,13 +17,13 @@ def execute_command(cmd):
             return (get_all_locations(cmd), False, False) if not valid_entry else (get_data(cmd[0].capitalize(), cmd[1].capitalize()), False, False)
 
         #Echo
-        if command is 1: return " ".join(cmd[1:]) if len(cmd[1:]) >= 1 else "You have entered an empty string", False, False
+        elif command is 1: return " ".join(cmd[1:]) if len(cmd[1:]) >= 1 else "You have entered an empty string", False, False
 
         #Cities
-        if command is 2: return get_code(cmd[1]), True, False
+        elif command is 2: return get_code(cmd[1]), True, False
 
         #Help
-        if comamnd is 3: return ("Hi there the commands I can perform are: \n"
+        elif command is 3: return ("Hi there the commands I can perform are: \n"
                                 "*Weather*: You can view the current weather using this command. Please use this format \n\t*- @Hoisin Sauce Weather City, Country Code*\n"
                                 "*Echo*: I will copy pasta whatever you said recently. Please use this format \n\t*- @Hoisin Sauce Echo Message*\n"
                                 "*Cities*: Find the cities for any country given the country code or name. Please use this format \n\t*- @Hoisin Sauce Cities Name/Country Code*\n"
