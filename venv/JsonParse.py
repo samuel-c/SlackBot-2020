@@ -1,4 +1,8 @@
 import json
+from fuzzywuzzy import process
+
+with open('./Cities.json') as f: data = json.load(f)
+all_cities = [ x['name'].lower() for x in data ]
 
 def get_code(code):
     if len(code) > 2: return(get_cities(code))
@@ -35,10 +39,10 @@ def get_code_from_country(country):
 def get_all_locations(city):
     with open('./Cities.json') as f:
       data = json.load(f)
-
+    possible = [ x[0].lower() for x in process.extractBests(city, all_cities) ]
     list = []
     for x in data:
-        if(x['name'].lower() == city.lower()):
+        if(x['name'].lower() in possible):
             temp = x['name'] + ", " + get_code_from_country(x['country'])
             list.append(temp)
 
